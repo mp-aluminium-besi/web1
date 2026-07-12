@@ -4,13 +4,21 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative w-full h-[60vh] md:h-[80vh] flex items-center justify-center overflow-hidden">
-        {/* Background Image */}
-        <img 
-          src="/banner.jpg" 
-          alt="Fasad Gedung ACP" 
-          className="absolute inset-0 w-full h-full object-cover object-center z-0"
-        />
+      <section className="relative w-full h-[60vh] md:h-[80vh] flex items-center justify-center overflow-hidden bg-gray-900">
+        
+        {/* Kontainer Absolut untuk Gambar (Bypass Sistem) */}
+        <div className="absolute inset-0 z-0">
+          <Image 
+            src="/banner.jpg" 
+            alt="Fasad Gedung ACP MP Aluminium" 
+            fill
+            priority
+            unoptimized
+            sizes="100vw"
+            className="object-cover object-center"
+          />
+        </div>
+        
         {/* Overlay Gelap agar teks terbaca */}
         <div className="absolute inset-0 bg-black bg-opacity-70 z-10"></div>
         
@@ -35,7 +43,7 @@ export default function Home() {
           {/* Card 1 */}
           <div className="bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100 overflow-hidden flex flex-col group">
             <div className="relative w-full h-64 overflow-hidden">
-              <img src="/kusen.jpg" alt="Kusen & Jendela" className="w-full h-full object-cover transform group-hover:scale-105 transition duration-500" />
+              <Image src="/kusen.jpg" alt="Kusen & Jendela" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover transform group-hover:scale-105 transition duration-500" />
             </div>
             <div className="p-6 flex-1">
               <h3 className="text-xl font-bold text-blue-900 mb-3">Kusen & Jendela</h3>
@@ -46,7 +54,7 @@ export default function Home() {
           {/* Card 2 */}
           <div className="bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100 overflow-hidden flex flex-col group">
             <div className="relative w-full h-64 overflow-hidden">
-              <img src="/fasad.jpg" alt="Fasad ACP" className="w-full h-full object-cover transform group-hover:scale-105 transition duration-500" />
+              <Image src="/fasad.jpg" alt="Fasad ACP" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover transform group-hover:scale-105 transition duration-500" />
             </div>
             <div className="p-6 flex-1">
               <h3 className="text-xl font-bold text-blue-900 mb-3">Fasad Eksterior ACP</h3>
@@ -57,7 +65,7 @@ export default function Home() {
           {/* Card 3 */}
           <div className="bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100 overflow-hidden flex flex-col group">
             <div className="relative w-full h-64 overflow-hidden">
-              <img src="/kitchen.jpg" alt="Kitchen Set Aluminium" className="w-full h-full object-cover transform group-hover:scale-105 transition duration-500" />
+              <Image src="/kitchen.jpg" alt="Kitchen Set Aluminium" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover transform group-hover:scale-105 transition duration-500" />
             </div>
             <div className="p-6 flex-1">
               <h3 className="text-xl font-bold text-blue-900 mb-3">Kitchen Set Aluminium</h3>
