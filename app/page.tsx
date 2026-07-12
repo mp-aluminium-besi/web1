@@ -7,7 +7,7 @@ export default function Home() {
       <section className="relative w-full h-[60vh] md:h-[80vh] flex items-center justify-center overflow-hidden">
         {/* Background Image */}
         <img 
-          src="/hero-acp.jpg" 
+          src="/banner.jpg" 
           alt="Fasad Gedung ACP" 
           className="absolute inset-0 w-full h-full object-cover object-center z-0"
         />
