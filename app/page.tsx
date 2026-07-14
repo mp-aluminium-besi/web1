@@ -3,21 +3,15 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="min-h-screen bg-white">
-      {/* Hero Section */}
-      <section className="relative w-full h-[60vh] md:h-[80vh] flex items-center justify-center overflow-hidden bg-gray-900">
-        
-        {/* Kontainer Absolut untuk Gambar (Bypass Sistem) */}
-        <div className="absolute inset-0 z-0">
-          <Image 
-            src="/banner.jpg" 
-            alt="Fasad Gedung ACP MP Aluminium" 
-            fill
-            priority
-            unoptimized
-            sizes="100vw"
-            className="object-cover object-center"
-          />
-        </div>
+{/* Hero Section */}
+      <section 
+        className="relative w-full h-[60vh] md:h-[80vh] flex items-center justify-center bg-gray-900"
+        style={{ 
+          backgroundImage: "url('/banner.jpg')",
+          backgroundSize: "cover",
+          backgroundPosition: "center"
+        }}
+      >
         
         {/* Overlay Gelap agar teks terbaca */}
         <div className="absolute inset-0 bg-black bg-opacity-70 z-10"></div>
@@ -34,7 +28,7 @@ export default function Home() {
           </a>
         </div>
       </section>
-
+      
       {/* Layanan/Produk Section */}
       <section className="py-20 px-6 max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Layanan & Produk Premium Kami</h2>
