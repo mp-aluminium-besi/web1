@@ -100,10 +100,10 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Card 4: Pintu Aluminium */}
+{/* Card 4: Pintu Aluminium */}
           <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group translate-y-0 hover:-translate-y-2">
             <div className="relative w-full h-72 overflow-hidden bg-gray-200">
-              <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=800&auto=format&fit=crop" alt="Pintu Aluminium Premium" className="w-full h-full object-cover transform group-hover:scale-110 transition duration-700 ease-in-out" />
+              <Image src="/pintu.png" alt="Pintu Aluminium Premium" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover transform group-hover:scale-110 transition duration-700 ease-in-out" />
             </div>
             <div className="p-8 flex-1">
               <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-orange-600 transition-colors">Pintu Aluminium</h3>
@@ -114,7 +114,7 @@ export default function Home() {
           {/* Card 5: Double Glass Fixed Window */}
           <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group translate-y-0 hover:-translate-y-2">
             <div className="relative w-full h-72 overflow-hidden bg-gray-200">
-              <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=800&auto=format&fit=crop" alt="Double Glass Fixed Window" className="w-full h-full object-cover transform group-hover:scale-110 transition duration-700 ease-in-out" />
+              <Image src="/double-glass.png" alt="Double Glass Fixed Window" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover transform group-hover:scale-110 transition duration-700 ease-in-out" />
             </div>
             <div className="p-8 flex-1">
               <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-orange-600 transition-colors">Double Glass Fixed Window</h3>
@@ -125,14 +125,14 @@ export default function Home() {
           {/* Card 6: Glass Window with Mesh */}
           <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group translate-y-0 hover:-translate-y-2">
             <div className="relative w-full h-72 overflow-hidden bg-gray-200">
-              <img src="https://images.unsplash.com/photo-1503174971373-b1f69850bded?q=80&w=800&auto=format&fit=crop" alt="Glass Window with Mesh" className="w-full h-full object-cover transform group-hover:scale-110 transition duration-700 ease-in-out" />
+              <Image src="/mesh.png" alt="Glass Window with Mesh" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover transform group-hover:scale-110 transition duration-700 ease-in-out" />
             </div>
             <div className="p-8 flex-1">
               <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-orange-600 transition-colors">Glass Window with Mesh</h3>
               <p className="text-gray-600 leading-relaxed">Jendela terintegrasi dengan kasa nyamuk premium. Memaksimalkan sirkulasi udara alami dan proteksi serangga tanpa merusak estetika fasad.</p>
             </div>
           </div>
-
+          
         </div>
       </section>
 
