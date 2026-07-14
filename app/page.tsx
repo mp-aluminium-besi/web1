@@ -103,7 +103,7 @@ export default function Home() {
 {/* Card 4: Pintu Aluminium */}
           <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group translate-y-0 hover:-translate-y-2">
             <div className="relative w-full h-72 overflow-hidden bg-gray-200">
-              <Image src="/pintu.png" alt="Pintu Aluminium Premium" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover transform group-hover:scale-110 transition duration-700 ease-in-out" />
+              <Image src="/pintu.jpg" alt="Pintu Aluminium Premium" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover transform group-hover:scale-110 transition duration-700 ease-in-out" />
             </div>
             <div className="p-8 flex-1">
               <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-orange-600 transition-colors">Pintu Aluminium</h3>
@@ -114,7 +114,7 @@ export default function Home() {
           {/* Card 5: Double Glass Fixed Window */}
           <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group translate-y-0 hover:-translate-y-2">
             <div className="relative w-full h-72 overflow-hidden bg-gray-200">
-              <Image src="/double-glass.png" alt="Double Glass Fixed Window" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover transform group-hover:scale-110 transition duration-700 ease-in-out" />
+              <Image src="/double-glass.jpg" alt="Double Glass Fixed Window" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover transform group-hover:scale-110 transition duration-700 ease-in-out" />
             </div>
             <div className="p-8 flex-1">
               <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-orange-600 transition-colors">Double Glass Fixed Window</h3>
@@ -125,7 +125,7 @@ export default function Home() {
           {/* Card 6: Glass Window with Mesh */}
           <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group translate-y-0 hover:-translate-y-2">
             <div className="relative w-full h-72 overflow-hidden bg-gray-200">
-              <Image src="/mesh.png" alt="Glass Window with Mesh" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover transform group-hover:scale-110 transition duration-700 ease-in-out" />
+              <Image src="/mesh.jpg" alt="Glass Window with Mesh" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover transform group-hover:scale-110 transition duration-700 ease-in-out" />
             </div>
             <div className="p-8 flex-1">
               <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-orange-600 transition-colors">Glass Window with Mesh</h3>
