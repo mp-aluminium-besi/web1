@@ -18,7 +18,6 @@ export default function Home() {
 
       {/* Hero Section dengan Cloud CDN Bypass */}
       <section className="relative w-full h-[85vh] flex items-center justify-center bg-gray-900 pt-16">
-        {/* Absolute Image via Unsplash Cloud - Dijamin 100% Muncul */}
         <div 
           className="absolute inset-0 z-0 opacity-60"
           style={{
@@ -28,11 +27,8 @@ export default function Home() {
             backgroundAttachment: "fixed" 
           }}
         ></div>
-        
-        {/* Gradient Overlay untuk kedalaman visual */}
         <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-slate-900/50 z-10"></div>
         
-        {/* Hero Content */}
         <div className="relative z-20 text-center px-6 max-w-5xl mx-auto flex flex-col items-center">
           <div className="inline-block mb-4 px-4 py-1.5 rounded-full border border-gray-400/30 bg-gray-800/30 backdrop-blur-sm text-sm text-gray-300 font-medium tracking-wide">
             Spesialis Fasad & Eksterior Premium
@@ -61,14 +57,16 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Layanan Section - Refined UI */}
+      {/* Layanan Section - Refined UI (6 Kolom) */}
       <section className="py-24 px-6 max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight mb-4">Layanan & Produk</h2>
+          <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight mb-4">Katalog Spesifikasi Produk</h2>
           <div className="w-24 h-1.5 bg-orange-500 mx-auto rounded-full"></div>
         </div>
         
+        {/* Grid 3 Kolom */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+          
           {/* Card 1 */}
           <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group translate-y-0 hover:-translate-y-2">
             <div className="relative w-full h-72 overflow-hidden bg-gray-200">
@@ -101,6 +99,40 @@ export default function Home() {
               <p className="text-gray-600 leading-relaxed">Investasi interior yang higienis. Material aluminium *food-grade* bebas lapuk dan anti karat dengan *finishing* elegan.</p>
             </div>
           </div>
+
+          {/* Card 4: Pintu Aluminium */}
+          <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group translate-y-0 hover:-translate-y-2">
+            <div className="relative w-full h-72 overflow-hidden bg-gray-200">
+              <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=800&auto=format&fit=crop" alt="Pintu Aluminium Premium" className="w-full h-full object-cover transform group-hover:scale-110 transition duration-700 ease-in-out" />
+            </div>
+            <div className="p-8 flex-1">
+              <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-orange-600 transition-colors">Pintu Aluminium</h3>
+              <p className="text-gray-600 leading-relaxed">Sistem pintu aluminium modern dengan engsel *heavy-duty*. Perpaduan sempurna antara keamanan mekanis maksimal dan estetika minimalis.</p>
+            </div>
+          </div>
+
+          {/* Card 5: Double Glass Fixed Window */}
+          <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group translate-y-0 hover:-translate-y-2">
+            <div className="relative w-full h-72 overflow-hidden bg-gray-200">
+              <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=800&auto=format&fit=crop" alt="Double Glass Fixed Window" className="w-full h-full object-cover transform group-hover:scale-110 transition duration-700 ease-in-out" />
+            </div>
+            <div className="p-8 flex-1">
+              <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-orange-600 transition-colors">Double Glass Fixed Window</h3>
+              <p className="text-gray-600 leading-relaxed">Kaca mati lapis ganda untuk insulasi termal dan akustik (kedap suara) superior. Ideal untuk fasad gedung perkantoran dan ruang privasi tinggi.</p>
+            </div>
+          </div>
+
+          {/* Card 6: Glass Window with Mesh */}
+          <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group translate-y-0 hover:-translate-y-2">
+            <div className="relative w-full h-72 overflow-hidden bg-gray-200">
+              <img src="https://images.unsplash.com/photo-1503174971373-b1f69850bded?q=80&w=800&auto=format&fit=crop" alt="Glass Window with Mesh" className="w-full h-full object-cover transform group-hover:scale-110 transition duration-700 ease-in-out" />
+            </div>
+            <div className="p-8 flex-1">
+              <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-orange-600 transition-colors">Glass Window with Mesh</h3>
+              <p className="text-gray-600 leading-relaxed">Jendela terintegrasi dengan kasa nyamuk premium. Memaksimalkan sirkulasi udara alami dan proteksi serangga tanpa merusak estetika fasad.</p>
+            </div>
+          </div>
+
         </div>
       </section>
 
