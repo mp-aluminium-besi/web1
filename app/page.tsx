@@ -96,7 +96,7 @@ export default function Home() {
             </div>
             <div className="p-8 flex-1">
               <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-orange-600 transition-colors">Kitchen Set Premium</h3>
-              <p className="text-gray-600 leading-relaxed">Investasi interior yang higienis. Material aluminium *food-grade* bebas lapuk dan anti karat dengan *finishing* elegan.</p>
+              <p className="text-gray-600 leading-relaxed">Investasi interior yang higienis. Material aluminium bebas lapuk dan anti karat dengan finishing presisi dan rapih.</p>
             </div>
           </div>
 
@@ -132,14 +132,75 @@ export default function Home() {
               <p className="text-gray-600 leading-relaxed">Jendela terintegrasi dengan kasa nyamuk premium. Memaksimalkan sirkulasi udara alami dan proteksi serangga tanpa merusak estetika fasad.</p>
             </div>
           </div>
-          
+
         </div>
       </section>
 
-      {/* Footer Minimalis */}
-      <footer className="bg-gray-900 py-12 border-t border-gray-800">
-        <div className="max-w-7xl mx-auto px-6 text-center">
-          <p className="text-gray-400 font-medium">© {new Date().getFullYear()} MP Aluminium. Hak Cipta Dilindungi.</p>
+{/* Keunggulan (Value Proposition) Section */}
+      <section className="py-20 bg-gray-900 text-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+            <div className="p-6">
+              <div className="w-16 h-16 bg-orange-500/20 rounded-full flex items-center justify-center mx-auto mb-6 text-orange-500">
+                <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
+              </div>
+              <h4 className="text-xl font-bold mb-3">Material Grade-A</h4>
+              <p className="text-gray-400">Kami hanya menggunakan material aluminium dan panel ACP bersertifikat dengan daya tahan maksimal terhadap cuaca ekstrem.</p>
+            </div>
+            <div className="p-6">
+              <div className="w-16 h-16 bg-orange-500/20 rounded-full flex items-center justify-center mx-auto mb-6 text-orange-500">
+                <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+              </div>
+              <h4 className="text-xl font-bold mb-3">Presisi Engineer</h4>
+              <p className="text-gray-400">Dikerjakan oleh tenaga ahli berpengalaman. Setiap sudut, potongan, dan instalasi diukur dengan toleransi tingkat milimeter.</p>
+            </div>
+            <div className="p-6">
+              <div className="w-16 h-16 bg-orange-500/20 rounded-full flex items-center justify-center mx-auto mb-6 text-orange-500">
+                <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+              </div>
+              <h4 className="text-xl font-bold mb-3">Tepat Waktu</h4>
+              <p className="text-gray-400">Kami memahami urgensi proyek Anda. Manajemen waktu yang ketat adalah komitmen kami untuk memastikan *deadline* terpenuhi.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer Komprehensif (Local SEO) */}
+      <footer className="bg-gray-950 pt-16 pb-8 border-t border-gray-900 text-gray-400">
+        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10 mb-12">
+          <div>
+            <h5 className="text-2xl font-extrabold tracking-tighter text-white mb-4">MP <span className="text-orange-500">Aluminium.</span></h5>
+            <p className="leading-relaxed mb-6">Mitra strategis Anda untuk rekayasa aluminium dan fasad premium. Estetika tanpa kompromi, durabilitas tanpa batas.</p>
+          </div>
+          <div>
+            <h5 className="text-lg font-bold text-white mb-4">Layanan Cepat</h5>
+            <ul className="space-y-2">
+              <li><a href="#" className="hover:text-orange-500 transition-colors">Kusen & Pintu Aluminium</a></li>
+              <li><a href="#" className="hover:text-orange-500 transition-colors">Fasad Eksterior ACP</a></li>
+              <li><a href="#" className="hover:text-orange-500 transition-colors">Kitchen Set Premium</a></li>
+              <li><a href="#" className="hover:text-orange-500 transition-colors">Double Glass Window</a></li>
+            </ul>
+          </div>
+          <div>
+            <h5 className="text-lg font-bold text-white mb-4">Hubungi Kami</h5>
+            <ul className="space-y-3">
+              <li className="flex items-start">
+                <span className="text-orange-500 mr-3">📍</span>
+                <span>Workshop: Jawa Barat, Indonesia<br/></span>
+              </li>
+              <li className="flex items-center">
+                <span className="text-orange-500 mr-3">📞</span>
+                <span>0811-1123-021</span>
+              </li>
+              <li className="flex items-center">
+                <span className="text-orange-500 mr-3">🕒</span>
+                <span>Senin - Sabtu | 08:00 - 17:00</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="max-w-7xl mx-auto px-6 text-center border-t border-gray-800 pt-8 text-sm">
+          <p>© {new Date().getFullYear()} MP Aluminium. Hak Cipta Dilindungi.</p>
         </div>
       </footer>
     </main>
