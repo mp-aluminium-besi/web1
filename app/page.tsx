@@ -23,12 +23,12 @@ export default function Home() {
           <p className="text-lg md:text-xl text-gray-200 mb-8 drop-shadow-sm">
             Spesialis Aplikator Kusen, Pintu, Jendela, Kitchen Set Aluminium, dan Fasad ACP. Mengutamakan kualitas material dan ketepatan waktu.
           </p>
-          <a href="#kontak" className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-10 rounded-md transition duration-300 shadow-lg text-lg">
+          <a href="https://wa.me/6281234567890?text=Halo%20MP%20Aluminium,%20saya%20mendapatkan%20informasi%20dari%20website.%20Saya%20ingin%20berkonsultasi%20mengenai%20proyek%20instalasi%20(Kusen/Fasad%20ACP/Kitchen%20Set).%20Apakah%20bisa%20dibantu?" target="_blank" rel="noopener noreferrer" className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-10 rounded-md transition duration-300 shadow-lg text-lg inline-block">
             Hubungi Kami Sekarang
           </a>
         </div>
       </section>
-      
+        
       {/* Layanan/Produk Section */}
       <section className="py-20 px-6 max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Layanan & Produk Premium Kami</h2>
